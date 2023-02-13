@@ -1,0 +1,506 @@
+body {
+  background-color:#D8D8D8;
+  font-size: 250%;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  /*font-family: 'Almendra SC', serif;*/
+  text-align: center;
+}
+
+
+p, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h6 {
+  font-size: 1.3rem;
+}
+
+a:hover {
+  color:darkred;
+}
+
+hr {
+  color: white;
+  width: 80%;
+  margin-top: 50px;
+}
+
+
+/********** Title **********/
+
+#intro-page {
+  height: 850px;
+  width: 1600px;
+  background-color: #B2B2B2;
+  margin: 30px;
+}
+
+.website-name {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}
+
+.intro-image {
+  position:absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.black {
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+
+}
+
+.grey {
+  height: 30px;
+  width: 100px;
+  background: grey;
+  position: absolute;
+  top: 60px;
+  left: 160px;
+}
+
+.white {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  left: 260px;
+
+}
+
+.link-1 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.link-2 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.link-3 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+
+/************** Our Products **********/
+
+#our-products {
+  height: 850px;
+  width: 1600px;
+  background-color: #B2B2B2;
+  margin:30px;
+  font-size: 80%;
+  padding-top: 30px;
+}
+
+.image-box-1 {
+  height: 350px;
+  width: 450px;
+  position: absolute;
+  top: 1130px;
+  left: 80px;
+}
+
+.black-box-1 {
+  height: 150px;
+  width: 450px;
+  background-color: black;
+  position: absolute;
+  top: 1550px;
+  left: 80px;
+  border-radius: 8px;
+}
+
+.image-box-2 {
+  height: 350px;
+  width: 450px;
+  position: absolute;
+  top: 1130px;
+  left: 610px;
+}
+
+.black-box-2 {
+  height: 150px;
+  width: 450px;
+  background-color: black;
+  position: absolute;
+  top: 1550px;
+  left: 610px;
+  border-radius: 8px;
+}
+
+.image-box-3 {
+  height: 350px;
+  width: 450px;
+  position: absolute;
+  top: 1130px;
+  right: 80px;
+}
+
+.black-box-3 {
+  height: 150px;
+  width: 450px;
+  background-color: black;
+  position: absolute;
+  top: 1550px;
+  right: 80px;
+  border-radius: 8px;
+}
+
+.link {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 4rem;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 115px;
+}
+
+.decoration {
+  position: absolute;
+  top: 1680px;
+  left: 720px;
+}
+
+/************Contact Us*************/
+
+#contact-us {
+  height: 850px;
+  width: 1600px;
+  background-color: #B2B2B2;
+  margin:30px;
+  font-size: 80%;
+}
+
+.contact-us-image {
+  position:absolute;
+  right: 300px;
+  top: 1855px;
+}
+
+.contact-us-area {
+  color: white;
+  line-height: 1rem;
+  text-align: right;
+  position:absolute;
+  right: 150px;
+  top: 1950px;
+}
+
+.submit {
+  width: 200px;
+  height: 50px;
+  font-size: 1rem;
+  background-color: darkred;
+  color: white;
+  border-radius: 8px;
+}
+
+.website-address {
+  font-family: serif;
+  font-size: 0.8rem;
+  color: white;
+  position:absolute;
+  left: 330px;
+  top: 2500px;
+}
+
+.email-address {
+  font-family: serif;
+  font-size: 0.8rem;
+  color: white;
+  position:absolute;
+  right: 320px;
+  top: 2500px;
+}
+
+.decoration1 {
+  position: absolute;
+  top: 2580px;
+  left: 720px;
+}
+
+/****************Gowns*************/
+
+#gowns {
+  height: 2400px;
+  width: 1600px;
+  background-color: #B2B2B2;
+  margin: 30px;
+}
+
+.black-area-gowns {
+  background-color: black;
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  bottom: 10px;
+  left: 1000px;
+  color: white;
+}
+
+.link-4 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.gowns-image-1 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.gown-info-1 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+
+.gowns-image-2 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 900px;
+  left: 80px;
+
+}
+
+.gown-info-2 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 900px;
+  left: 600px;
+}
+
+.gowns-image-3 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 1580px;
+  left: 80px;
+
+}
+
+.gown-info-3 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 1580px;
+  left: 600px;
+}
+
+/*************Skirts***************/
+
+#skirts {
+  height: 2300px;
+  width: 1600px;
+  background-color: #B2B2B2;
+  margin: 30px;
+}
+
+.black-area-skirts {
+  background-color: black;
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  bottom: 10px;
+  left: 1000px;
+  color: white;
+}
+
+.skirts-image-1 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.skirt-info-1 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+
+.skirts-image-2 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 800px;
+  left: 80px;
+}
+
+.skirt-info-2 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 800px;
+  left: 600px;
+}
+
+.skirts-image-3 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 1570px;
+  left: 80px;
+}
+
+.skirt-info-3 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 1570px;
+  left: 600px;
+}
+
+/************Shoes*****************/
+
+
+#shoes {
+  height: 2300px;
+  width: 1600px;
+  background-color: #B2B2B2;
+  margin: 30px;
+}
+
+.black-area-shoes {
+  background-color: black;
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  bottom: 10px;
+  left: 1000px;
+  color: white;
+
+}
+
+.shoes-image-1 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.shoes-info-1 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+
+.shoes-image-2 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 850px;
+  left: 80px;
+}
+
+.shoes-info-2 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 850px;
+  left: 600px;
+}
+
+.shoes-image-3 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 1500px;
+  left: 80px;
+}
+
+.shoes-info-3 {
+  height: 600px;
+  width: 350px;
+  position: absolute;
+  top: 1500px;
+  left: 600px;
+}
+
+/*********** Shopping Bag and Checkout***************/
+
+#shopping-bag, #checkout{
+  height: 850px;
+  width: 1600px;
+  background-color: #B2B2B2;
+  margin: 30px;
+}
+
+.shopping-bag-image {
+  position:absolute;
+  left: 250px;
+  top: 230px;
+}
+
+.shopping-bag {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 5rem;
+  height: 650px;
+  width: 400px;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+.decoration3 {
+  position: absolute;
+  top: 750px;
+  left: 500px;
+}
+
+/* 1) I know it is very wet, I have no time to trim it.
+2) Unfortunately, I read the task about making the website adaptible for mobile phones and tablets too late.
+I think the design that I chose would be difficult to make mobile phone friendly.
+I hope I can do this challenge in one of the following projects.
+In this project I experimented with the positioning of divs.*/
